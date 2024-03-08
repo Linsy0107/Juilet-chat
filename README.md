@@ -374,4 +374,3 @@ In order to deploy two models' APIs on a single A100, some configurations are ne
 
 Thanks to the strong support from Shanghai Artificial Intelligence Laboratory!
 
-+
