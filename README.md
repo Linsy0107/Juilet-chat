@@ -15,7 +15,7 @@ This project will guide you through the process of generating the Juliet-chat la
 
 # Environment Configuration
 
-clone 本 repo 以及 submodules
+clone  this repo and submodules
 ```shell 
 git clone --recurse-submodules https://github.com/Linsy0107/Juilet-chat.git
 ```
@@ -174,7 +174,7 @@ After completing all three methods, the data needs to be compiled into the same 
 # Model fine-tuning
 
 <details>
-  <summary style="font-weight: bold; font-size: larger;">⚙️模型微调+streamlit对话+OpenXLab部署</summary>
+  <summary style="font-weight: bold; font-size: larger;">⚙️Model fine-tuning+streamlit dialogue+Deployment on OpenXLab</summary>
 
 ### 1. Fine-tune the model using xTuner
 
@@ -239,7 +239,7 @@ model = (AutoModelForCausalLM.from_pretrained('/root/code/xtuner/process_data/me
                                               trust_remote_code=True)
 ```
 
-另外还需修改 `meta_instruction` :
+Additionally, you need to modify `meta_instruction` :
 
 ```shell
 meta_instruction = ('你是猪八戒，猪八戒说话幽默风趣，说话方式通常表现为直率、幽默，有时带有一点自嘲和调侃。'
